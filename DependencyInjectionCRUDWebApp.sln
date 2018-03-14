@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.27428.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjectionCRUDWebApp", "DependencyInjectionCRUDWebApp\DependencyInjectionCRUDWebApp.csproj", "{B1145AC4-2D2F-44F0-AAE1-6EEF3B085FE8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D0688864-8F9A-4EB0-95A4-62FC77DBF558}"
+	ProjectSection(SolutionItems) = preProject
+		Postman.json = Postman.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
