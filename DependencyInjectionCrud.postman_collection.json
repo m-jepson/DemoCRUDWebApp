@@ -1,0 +1,128 @@
+{
+	"info": {
+		"name": "DependencyInjectionCrud",
+		"_postman_id": "9b862205-7cce-f3c7-8953-5f913f736d7f",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:59197/api/customers",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "f0990eb3-7731-4a2a-a082-001fbb07a8fa",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"Name\": \"CM International\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:59197/api/customers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "59197",
+					"path": [
+						"api",
+						"customers"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:59197/api/Customers/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:59197/api/Customers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "59197",
+					"path": [
+						"api",
+						"Customers"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:59197/api/Customers/1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:59197/api/Customers/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "59197",
+					"path": [
+						"api",
+						"Customers",
+						"1"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:59197/api/Customers/2",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"Name\": \"CM Telecom\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:59197/api/Customers/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "59197",
+					"path": [
+						"api",
+						"Customers",
+						"3"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
